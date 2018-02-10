@@ -1,0 +1,21 @@
+{
+  "name": "npm-author-most-depended",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/npm-author-most-depended",
+  "description": "Get the most depended on npm packages per author.",
+  "bin": {
+    "npm-author-most-depended": "bin/npm-author-most-depended.js"
+  },
+  "scripts": {
+    "test": "prettier-standard '**/*.js' && standard && node bin/npm-author-most-depended.js juliangruber"
+  },
+  "dependencies": {
+    "dependent-counts": "^2.0.0",
+    "npm-user-packages": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier-standard": "^8.0.0",
+    "standard": "^10.0.3"
+  }
+}
