@@ -15,7 +15,7 @@
     "npm-user-packages": "^3.0.0"
   },
   "devDependencies": {
-    "prettier-standard": "^8.0.0",
+    "prettier-standard": "^9.1.1",
     "standard": "^10.0.3"
   }
 }
